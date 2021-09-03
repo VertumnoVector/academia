@@ -1,0 +1,186 @@
+ ListTile(
+              leading: Icon(Icons.looks_one),
+              title: Text('Segunda-feira'),
+              subtitle: Text('DELTOIDES E BRAÇOS'),
+              onTap: () {
+                setState(() {
+                  diaSemana = 'Segunda-feira';
+                  exercicio = 'DELTOIDES E BRAÇOS';
+                  nomeExercicio1 = 'Desenvolvimento smith com halteres';
+                  nomeExercicio2 = 'Tríceps coice com halteres';
+                  nomeExercicio3 = 'Rosca martelo no cross over';
+                  nomeExercicio4 = 'Tríceps pulley';
+                  nomeExercicio5 = 'Voador inverso';
+                  nomeExercicio6 = 'Rosca Scott';
+
+                  ex1path = 'assets/images/segunda/1.jpg';
+                  ex2path = 'assets/images/segunda/2.jpg';
+                  ex3path = 'assets/images/segunda/3.jpg';
+                  ex4path = 'assets/images/segunda/4.jpg';
+                  ex5path = 'assets/images/segunda/5.jpg';
+                  ex6path = 'assets/images/segunda/6.jpg';
+
+                  nomeExercicio6 == ''
+                      ? isTile6Visible = false
+                      : isTile6Visible = true;
+                  isTilesVisible = true;
+
+                  Navigator.of(context).pop();
+                });
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.looks_two),
+              title: Text('Terça-feira'),
+              subtitle: Text('PERNAS E GLÚTEOS'),
+              onTap: () {
+                setState(() {
+                  diaSemana = 'Terça-feira';
+                  exercicio = 'PERNAS E GLUTEOS';
+                  nomeExercicio1 = 'Leg press 45';
+                  nomeExercicio2 = 'Agachamento Smith';
+                  nomeExercicio3 = 'Leg press 90';
+                  nomeExercicio4 = 'Cadeira abdutora';
+                  nomeExercicio5 = 'Cadeira adutora';
+                  nomeExercicio6 = 'Elevação de quadril com barra';
+
+                  ex1path = 'assets/images/terca/1.jpg';
+                  ex2path = 'assets/images/terca/2.jpg';
+                  ex3path = 'assets/images/terca/3.jpg';
+                  ex4path = 'assets/images/terca/4.jpg';
+                  ex5path = 'assets/images/terca/5.jpg';
+                  ex6path = 'assets/images/terca/6.jpg';
+
+                  nomeExercicio6 == ''
+                      ? isTile6Visible = false
+                      : isTile6Visible = true;
+                  isTilesVisible = true;
+
+                  Navigator.of(context).pop();
+                });
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.looks_3),
+              title: Text('Quarta-feira'),
+              subtitle: Text('PEITOS E COSTAS'),
+              onTap: () {
+                setState(() {
+                  diaSemana = 'Quarta-feira';
+                  exercicio = 'PEITO E COSTAS';
+                  nomeExercicio1 = 'Supino reto com halteres';
+                  nomeExercicio2 = 'Crucifixo inclinado';
+                  nomeExercicio3 = 'Remada alta no cross over';
+                  nomeExercicio4 = 'Remada baixa';
+                  nomeExercicio5 = 'Puxada frontal';
+                  nomeExercicio6 = 'Puxada triangulo';
+
+                  ex1path = 'assets/images/quarta/1.jpg';
+                  ex2path = 'assets/images/quarta/2.jpg';
+                  ex3path = 'assets/images/quarta/3.jpg';
+                  ex4path = 'assets/images/quarta/4.jpg';
+                  ex5path = 'assets/images/quarta/5.jpg';
+                  ex6path = 'assets/images/quarta/6.jpg';
+
+                  nomeExercicio6 == ''
+                      ? isTile6Visible = false
+                      : isTile6Visible = true;
+                  isTilesVisible = true;
+
+                  Navigator.of(context).pop();
+                });
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.looks_4),
+              title: Text('Quinta-feira'),
+              subtitle: Text('PANTURRILHA E ABDOMEN'),
+              onTap: () {
+                setState(() {
+                  diaSemana = 'Quinta-feira';
+                  exercicio = 'PANTURRILHA E ABDOMEN';
+                  nomeExercicio1 = 'Panturrilha leg press 45';
+                  nomeExercicio2 = 'Panturrilha sentado';
+                  nomeExercicio3 = 'Abdominal reto';
+                  nomeExercicio4 = 'Abdominal obliquo';
+                  nomeExercicio5 = 'Abdominal infra';
+                  nomeExercicio6 = '';
+
+                  ex1path = 'assets/images/quinta/1.jpg';
+                  ex2path = 'assets/images/quinta/2.jpg';
+                  ex3path = 'assets/images/quinta/3.jpg';
+                  ex4path = 'assets/images/quinta/4.jpg';
+                  ex5path = 'assets/images/quinta/5.jpg';
+                  ex6path = 'assets/images/quinta/void.png';
+
+                  nomeExercicio6 == ''
+                      ? isTile6Visible = false
+                      : isTile6Visible = true;
+                  isTilesVisible = true;
+
+                  Navigator.of(context).pop();
+                });
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.looks_5),
+              title: Text('Sexta-feira'),
+              subtitle: Text('PERNAS E GLUTEOS'),
+              onTap: () {
+                setState(() {
+                  diaSemana = 'Sexta-feira';
+                  exercicio = 'PERNAS E GLUTEOS';
+                  nomeExercicio1 = 'Agachamento hack';
+                  nomeExercicio2 = 'Cadeira extensora';
+                  nomeExercicio3 = 'Cadeira flexora';
+                  nomeExercicio4 = 'Agachamento sumo';
+                  nomeExercicio5 = 'Bom dia';
+                  nomeExercicio6 = 'Stiff';
+
+                  ex1path = 'assets/images/sexta/1.jpg';
+                  ex2path = 'assets/images/sexta/2.jpg';
+                  ex3path = 'assets/images/sexta/3.jpg';
+                  ex4path = 'assets/images/sexta/4.jpg';
+                  ex5path = 'assets/images/sexta/5.jpg';
+                  ex6path = 'assets/images/sexta/6.jpg';
+
+                  nomeExercicio6 == ''
+                      ? isTile6Visible = false
+                      : isTile6Visible = true;
+                  isTilesVisible = true;
+
+                  Navigator.of(context).pop();
+                });
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.looks_6),
+              title: Text('Sábado'),
+              subtitle: Text('PANTURRILHA E ABDOMEN'),
+              onTap: () {
+                setState(() {
+                  diaSemana = 'Sábado';
+                  exercicio = 'PANTURRILHA E ABDOMEN';
+                  nomeExercicio1 = 'Panturrilha halter';
+                  nomeExercicio2 = 'Panturrilha em pé unilateral';
+                  nomeExercicio3 = 'Abdominal supra';
+                  nomeExercicio4 = 'Abdominal pé a pé';
+                  nomeExercicio5 = 'Abdominal tesoura';
+                  nomeExercicio6 = '';
+
+                  ex1path = 'assets/images/sabado/1.jpg';
+                  ex2path = 'assets/images/sabado/2.jpg';
+                  ex3path = 'assets/images/sabado/3.jpg';
+                  ex4path = 'assets/images/sabado/4.jpg';
+                  ex5path = 'assets/images/sabado/5.jpg';
+                  ex6path = 'assets/images/sabado/6.png';
+
+                  nomeExercicio6 == ''
+                      ? isTile6Visible = false
+                      : isTile6Visible = true;
+                  isTilesVisible = true;
+
+                  Navigator.of(context).pop();
+                });
+              },
+            ),
